@@ -1,0 +1,30 @@
+{
+	"packageManager": "yarn@4.6.0",
+	"name": "@nullhaven/retrotimings",
+	"private": true,
+	"version": "1.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-check --tsconfig ./tsconfig.app.json && tsc -p tsconfig.node.json",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^5.0.3",
+		"@tailwindcss/vite": "^4.0.9",
+		"@tsconfig/svelte": "^5.0.4",
+		"clsx": "^2.1.1",
+		"prettier": "^3.5.2",
+		"prettier-plugin-svelte": "^3.3.3",
+		"prettier-plugin-tailwindcss": "^0.6.11",
+		"svelte": "^5.20.2",
+		"svelte-check": "^4.1.4",
+		"svelte-hero-icons": "^5.2.0",
+		"svelte-json-tree": "^2.2.0",
+		"tailwindcss": "^4.0.9",
+		"typescript": "^5.7.2",
+		"vite": "^6.2.0"
+	}
+}
