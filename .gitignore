@@ -25,3 +25,6 @@ dist-ssr
 
 .yarn
 !.yarn/releases/*
+
+# Sample timings for testing
+timings.txt
