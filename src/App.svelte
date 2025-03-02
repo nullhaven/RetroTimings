@@ -20,7 +20,7 @@
 	}
 </script>
 
-<div class="p-4 flex flex-row gap-2 items-center">
+<div class="flex flex-row items-center gap-2 p-4">
 	<FileSelectButton onchange={onFileSelect} />
 	{#if report != null}
 		<div>
